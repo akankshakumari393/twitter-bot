@@ -1,3 +1,5 @@
+[![Go Report Card](https://goreportcard.com/badge/github.com/akankshakumari393/twitter-bot)](https://goreportcard.com/report/github.com/akankshakumari393/twitter-bot)
+
 # twitter-bot
 A Twiiter bot that post a status on the user timeline. It uses V1.1 twitter APIs. 
 
