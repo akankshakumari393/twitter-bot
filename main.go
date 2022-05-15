@@ -18,10 +18,11 @@ func main() {
 
 	// log.Printf("%+v\n", creds)
 
-	client, err := auth.GetTwitterClient(&creds)
+	client, err := auth.GetTwitterV1Client(&creds)
 	if err != nil {
 		log.Fatalf("Error getting Twitter Client %s", err)
 	}
+	log.Printf("%+v\n", client)
 	tweet, resp, err := client.Statuses.Update("Hello from bot!", nil)
 	if err != nil {
 		log.Println(err)
